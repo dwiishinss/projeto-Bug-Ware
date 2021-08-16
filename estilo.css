@@ -2,7 +2,7 @@
 	/*border: 5px solid red;*/
 	padding-top: 50px;
 	width: 100%;
-	height: 580px;
+	height: 100%;
 	position: relative; 
 }
 
@@ -14,26 +14,26 @@
 
 #missao{
 	/*border: 5px solid red;*/
-	width: 300px;
-	position: relative;
-	left: 20%;
+	width: 20%;
+	position: absolute;
+	left: 16%;
 	padding-top: 80px;
 }
 
 #visao{
 	/*border: 5px solid red;*/
-	width: 300px;
-	position: relative;
-	bottom: 162px;
+	width: 20%;
+	position: absolute;
 	left: 40%;
+	padding-top: 80px;
 }
 
 #valores{
 	/*border: 5px solid red;*/
-	width: 300px;
-	position: relative;
-	bottom: 345px;
-	left: 60%;
+	width: 20%;
+	position: absolute;
+	left: 64%;
+	padding-top: 80px;
 }
 
 .home_img{

@@ -1,10 +1,47 @@
-#historia{
-	/*border: 5px solid red;*/
+/* Ids Principais */
+
+#HISTORIA{
 	padding-top: 50px;
 	width: 100%;
 	height: 580px;
 	position: relative; 
 }
+
+#MOTIVACAO{
+	background-image: url('Materiais/635703-1.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#SERVIÇOS{
+	position: relative;
+	margin-bottom: 100px;
+}
+
+#MOVIMENTO-EMPRESA-JUNIOR{
+	position: relative;
+	background: #F7F7F7;
+	height: 700px;
+	margin-bottom: 120px;
+}
+
+#DEPOIMENTOS{
+	position: relative;
+	height: 800px;
+}
+
+#CONTATO{
+	background: #3E194D;
+	position: relative;
+	height: 700px;
+}
+
+/* Fim Ids Principais */
+
+
+/* Ids Historia */
 
 #conteudo-historia{
 	width: 44%;
@@ -13,7 +50,6 @@
 }
 
 #missao{
-	/*border: 5px solid red;*/
 	width: 20%;
 	position: absolute;
 	left: 16%;
@@ -21,7 +57,6 @@
 }
 
 #visao{
-	/*border: 5px solid red;*/
 	width: 20%;
 	position: absolute;
 	left: 40%;
@@ -29,20 +64,17 @@
 }
 
 #valores{
-	/*border: 5px solid red;*/
 	width: 20%;
 	position: absolute;
 	left: 64%;
 	padding-top: 80px;
 }
 
-#motivacao{
-	background-image: url('Materiais/635703-1.jpg');
-	background-size: 100%;
-	background-repeat: no-repeat;
-	color: #FFFFFF;
-	text-align: center;
-}
+/* Fim Ids Historia */
+
+
+
+/* Ids Motivação */
 
 #shadow{
 	background: #000000A0;
@@ -56,54 +88,54 @@
 	border-radius: 1000px;
 }
 
-#serviços{
-	position: relative;
-	margin-bottom: 100px;
-}
+/* Fim Ids Motivação */
 
-#DESENVOLVIMENTO{
+
+
+/* Ids Serviços */
+
+#desenvolvimento{
 	position: absolute;
 	width: 23%;
 	bottom: 330px;
 	left: 12%;
 }
 
-#INTERNET{
+#internet{
 	position: absolute;
 	width: 23%;
 	bottom: 170px;
 	left: 12%;
 }
 
-#CONSULTORIA{
+#consultoria{
 	position: absolute;
 	width: 23%;
 	bottom: 330px;
 	right: 12%;
 }
 
-#MINICURSOS{
+#minicursos{
 	position: absolute;
 	width: 23%;
 	bottom: 170px;
 	right: 12%;
 }
 
-#MovimentoEmpresaJunior{
-	position: relative;
-	background: #F7F7F7;
-	height: 700px;
-	margin-bottom: 120px;
-}
+/* Fim Ids Serviços */
 
-#sobreEmpresaJunior{
+
+
+/* Ids Movimento Empresa Junior */
+
+#sobre-empresa-junior{
 	position: relative;
 	top: 150px;
 	left: 200px;
 	width: 25%;
 }
 
-#linkEmpresaJunior{
+#link-empresa-junior{
 	color: #A7FBD3;
 	text-decoration: none;
 	font: bold 15px "Segoe UI", Arial, sans-serif;
@@ -116,25 +148,19 @@
 	top: 40px;
 }
 
-#Membros{
+#membros{
 	position: absolute;
 	bottom: 170px;
 	left: 40%;
 	width: 600px;
 }
 
-#depoimentos{
-	position: relative;
-	height: 800px;
-}
+/* Fim Ids Movimento Empresa Junior */
 
-#CONTATO{
 
-	background: #3E194D;
-	position: relative;
-	height: 700px;
 
-}
+
+/* Ids Contato */
 
 #formulario{
 
@@ -157,9 +183,63 @@
 
 }
 
+/* Fim Ids Contato */
+
+
+
+
+/* Classes de Imagem */
+
 .img{
 	width: 100%;
 }
+
+.img-serviços{
+	position: relative;
+	left: 39%;
+}
+
+.foto1{
+	width: 60px;
+	position: absolute;
+	top: 200px;
+	left: 20px;
+}
+
+.foto2{
+	width: 60px;
+	position: absolute;
+	top: 200px;
+	left: 40px;
+}
+
+.foto3{
+	width: 60px;
+	position: absolute;
+	top: 200px;
+	left: 40px;
+}
+
+.icons{
+	position: relative;
+	left: 40%;
+	color: #A7FBD3;
+	font-size: 350%;
+}
+
+.img-contato{
+	
+	position: relative;
+	top: 50px;
+	width: 325px;
+
+}
+
+/* Fim Classes de Imagem */
+
+
+
+/* Classes de Texto */
 
 .title{
 	font: bold 48px Montserrat, Arial, sans-serif;
@@ -167,9 +247,21 @@
 	color: #252525;
 }
 
+.title-contato{
+	font: bold 42px Montserrat, Arial, sans-serif;
+	color: #FFFFFF;
+	text-aling: left;
+}
+
 .title-left{
 	font: bold 48px Montserrat, Arial, sans-serif;
 	text-align: left;
+	color: #252525;
+}
+
+.title-right{
+	font: bold 48px Montserrat, Arial, sans-serif;
+	text-align: right;
 	color: #252525;
 }
 
@@ -195,8 +287,6 @@
 	font: normal 20px "Segoe UI", Arial, sans-serif;
 	text-align: center;
 	color: #999999;
-	margin-top: 100px;
-	margin-bottom: 0px;
 }
 
 .text{
@@ -235,15 +325,6 @@
 	margin: 10px;
 }
 
-.nomargin{
-	margin: 0px;
-}
-
-.img-serviços{
-	position: relative;
-	left: 39%;
-}
-
 .oquefalam1{
 	position: absolute;
 	width: 240px;
@@ -268,59 +349,19 @@
 	left: 60%;
 }
 
-.foto1{
-	width: 60px;
-	position: absolute;
-	top: 200px;
-	left: 20px;
+/* Fim Classes de Texto */
+
+
+
+/* Classes de funções expecificas */
+
+.margin-100top{
+	margin-top: 100px;
+	margin-bottom: 0px;
 }
 
-.foto2{
-	width: 60px;
-	position: absolute;
-	top: 200px;
-	left: 40px;
-}
-
-.foto3{
-	width: 60px;
-	position: absolute;
-	top: 200px;
-	left: 40px;
-}
-
-.icons{
-	position: relative;
-	left: 40%;
-	color: #A7FBD3;
-	font-size: 350%;
-}
-
-
-.title-contato{
-
-	font: bold 42px Montserrat, Arial, sans-serif;
-	color: #FFFFFF;
-	text-aling: left;
-
-}
-
-.img-contato{
-	
-	position: relative;
-	top: 50px;
-	width: 325px;
-
-}
-
-.buttom{
-	
-	background: #3E194D;
-	color: #A7FBD3;
-	padding: 5px 15px;
-	border: 0px solid white;
-	border-radius: 5px;
-
+.nomargin{
+	margin: 0px;
 }
 
 .tam-w{
@@ -342,3 +383,21 @@
 .noborder{
 	border-style: none;
 }
+
+/* Fim Classes de funções expecificas */
+
+
+
+/* Classe Formulario */
+
+.buttom{
+
+	background: #3E194D;
+	color: #A7FBD3;
+	padding: 5px 15px;
+	border: 0px solid white;
+	border-radius: 5px;
+
+}
+
+/* Fim Classe Formulario */

@@ -89,6 +89,39 @@
 	right: 12%;
 }
 
+#MovimentoEmpresaJunior{
+	position: relative;
+	background: #F7F7F7;
+	height: 700px;
+}
+
+#sobreEmpresaJunior{
+	position: relative;
+	top: 150px;
+	left: 200px;
+	width: 25%;
+}
+
+#linkEmpresaJunior{
+	color: #A7FBD3;
+	text-decoration: none;
+	font: bold 15px "Segoe UI", Arial, sans-serif;
+	background: #3E194D;
+	width: 130px;
+	padding: 15px 40px;
+	border: 0px solid #F7F7F7;
+	border-radius: 5px;
+	position: relative;
+	top: 40px;
+}
+
+#Membros{
+	position: absolute;
+	bottom: 170px;
+	left: 40%;
+	width: 600px;
+}
+
 .img{
 	width: 100%;
 }
@@ -96,6 +129,12 @@
 .title{
 	font: bold 48px Montserrat, Arial, sans-serif;
 	text-align: center;
+	color: #252525;
+}
+
+.title-left{
+	font: bold 48px Montserrat, Arial, sans-serif;
+	text-align: left;
 	color: #252525;
 }
 

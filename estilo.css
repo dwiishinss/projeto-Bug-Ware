@@ -2,7 +2,7 @@
 	/*border: 5px solid red;*/
 	padding-top: 50px;
 	width: 100%;
-	height: 100%;
+	height: 580px;
 	position: relative; 
 }
 
@@ -36,7 +36,27 @@
 	padding-top: 80px;
 }
 
-.home_img{
+#motivacao{
+	background-image: url('Materiais/635703-1.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#shadow{
+	background: #000000A0;
+	height: 100%;
+	padding-bottom: 12%;
+}
+
+#yoda{
+	width: 60px;
+	border: 5px solid #00000070;
+	border-radius: 1000px;
+}
+
+.img{
 	width: 100%;
 }
 
@@ -55,6 +75,17 @@
 	font: normal 15px "Segoe UI", Arial, sans-serif;
 	text-align: center;
 	color: #999999;
+}
+
+.textYoda{
+	padding-top: 10%;
+	margin: 0px;
+	font: normal 40px "Segoe UI", Arial, sans-serif;
+}
+
+.nameYoda{
+	font: normal 15px "Segoe UI", Arial, sans-serif;
+	margin: 10px;
 }
 
 .icons{

@@ -125,6 +125,36 @@
 
 #depoimentos{
 	position: relative;
+	height: 800px;
+}
+
+#CONTATO{
+
+	background: #3E194D;
+	position: relative;
+	height: 700px;
+
+}
+
+#formulario{
+
+	border: 0px solid white;
+	border-radius: 10px;
+	position: absolute;
+	background: #FFFFFF;
+	bottom: 160px;
+	left: 60%;
+	padding: 40px;
+
+}
+
+#infos-contato{
+
+	width:400px ;
+	position: relative;
+	top: 15%;
+	left: 20%;
+
 }
 
 .img{
@@ -264,4 +294,51 @@
 	left: 40%;
 	color: #A7FBD3;
 	font-size: 350%;
+}
+
+
+.title-contato{
+
+	font: bold 42px Montserrat, Arial, sans-serif;
+	color: #FFFFFF;
+	text-aling: left;
+
+}
+
+.img-contato{
+	
+	position: relative;
+	top: 50px;
+	width: 325px;
+
+}
+
+.buttom{
+	
+	background: #3E194D;
+	color: #A7FBD3;
+	padding: 5px 15px;
+	border: 0px solid white;
+	border-radius: 5px;
+
+}
+
+.tam-w{
+	width: 300px;
+}
+
+.tam-h1{
+	height: 20px;
+}
+
+.tam-h2{
+	height: 100px;
+}
+
+.background{
+	background: #F5F5F5;
+}
+
+.noborder{
+	border-style: none;
 }

@@ -56,6 +56,39 @@
 	border-radius: 1000px;
 }
 
+#serviços{
+	position: relative;
+	margin-bottom: 100px;
+}
+
+#DESENVOLVIMENTO{
+	position: absolute;
+	width: 23%;
+	bottom: 330px;
+	left: 12%;
+}
+
+#INTERNET{
+	position: absolute;
+	width: 23%;
+	bottom: 170px;
+	left: 12%;
+}
+
+#CONSULTORIA{
+	position: absolute;
+	width: 23%;
+	bottom: 330px;
+	right: 12%;
+}
+
+#MINICURSOS{
+	position: absolute;
+	width: 23%;
+	bottom: 170px;
+	right: 12%;
+}
+
 .img{
 	width: 100%;
 }
@@ -69,11 +102,44 @@
 .textTitle{
 	font: bold 17px "Segoe UI", Arial, sans-serif;
 	text-align: center;
+	color: #252525;
+}
+
+.textTitle-left{
+	font: bold 17px "Segoe UI", Arial, sans-serif;
+	text-align: left;
+	color: #252525;
+}
+
+.textTitle-right{
+	font: bold 17px "Segoe UI", Arial, sans-serif;
+	text-align: right;
+	color: #252525;
+}
+
+.textTitle2{
+	font: normal 20px "Segoe UI", Arial, sans-serif;
+	text-align: center;
+	color: #999999;
+	margin-top: 100px;
+	margin-bottom: 0px;
 }
 
 .text{
 	font: normal 15px "Segoe UI", Arial, sans-serif;
 	text-align: center;
+	color: #999999;
+}
+
+.text-left{
+	font: normal 15px "Segoe UI", Arial, sans-serif;
+	text-align: left;
+	color: #999999;
+}
+
+.text-right{
+	font: normal 15px "Segoe UI", Arial, sans-serif;
+	text-align: right;
 	color: #999999;
 }
 
@@ -86,6 +152,15 @@
 .nameYoda{
 	font: normal 15px "Segoe UI", Arial, sans-serif;
 	margin: 10px;
+}
+
+.nomargin{
+	margin: 0px;
+}
+
+.img-serviços{
+	position: relative;
+	left: 39%;
 }
 
 .icons{

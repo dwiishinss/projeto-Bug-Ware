@@ -29,7 +29,7 @@
 
 #DEPOIMENTOS{
 	position: relative;
-	height: 800px;
+	height: 580px;
 }
 
 #CONTATO{
@@ -131,7 +131,7 @@
 #sobre-empresa-junior{
 	position: relative;
 	top: 150px;
-	left: 200px;
+	left: 300px;
 	width: 25%;
 }
 
@@ -151,7 +151,7 @@
 #membros{
 	position: absolute;
 	bottom: 170px;
-	left: 40%;
+	left: 44%;
 	width: 600px;
 }
 
